@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Poppins:wght@100;200;300;400&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.btn {
+    border: none;
+}
+
+.banner {
+    height: 100vh;
+    background-image: linear-gradient(rgba(65, 10, 23, 0.5), rgba(0, 0, 0, 0.6)), url(../images/hero-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* AJUSTANDO ALTURA */
+
+.logo {
+    height: 20px;
+}
+
+.hero-content {
+    height: 100vh;    
+}
+
+/* ALTERANDO PADRÃO DE CORES */
+
+.text-dark {
+    color: #110014 !important;
+}
+
+.text-danger {
+    color: #f15c5c !important;
+}
+
+.text-success {
+    color: #04beaa !important;
+}
+
+.bg-danger {
+    background-color: #f15c5c !important;
+}
+
+.btn-danger {
+    background-color: #f15c5c;
+}
+
+.btn-success {
+    background-color: #04beaa;
+}
+
+/* AJUSTANDO TAMANHO PARÁGRAFOS */
+
+.lead {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+/* INSERINDO HOVER */
+
+.nav-item a:hover {
+    color: #f15c5c !important;
+}
+
+.btn-success:hover {
+    color: #04beaa;
+    border: 1px solid #04beaa;
+    background-color: #fff;
+}
+
